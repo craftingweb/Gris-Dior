@@ -5,10 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Gris Dior</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400,700&family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="logo">
+            <img src="images/logo.svg" alt="logo" />
+          </a>
+          <h3 class="header__title">LA COLLECTION PRIVÉE CHRISTIAN DIOR</h3>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">WOMEN'S FRAGRANCE</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">MEN'S FRAGRANCE</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">MAKEUP</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">SKINCARE</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">DIOR SPA</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="user-nav">
+            <li class="user-nav__item">
+              <a href="" class="user-nav__link">
+                <img src="images/favorites.svg" alt="" href="#"
+              /></a>
+            </li>
+            <li class="user-nav__item">
+              <a href="" class="user-nav__link">
+                <img src="images/cart.svg" alt="" href="#"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="top">
+      <!-- Slider main container -->
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="top-slide">
+              <div class="container">
+                <div class="top-slide__inner">
+                  <img src="images/top-slider/slide-1.jpg" alt="" />
+                  <div class="top-slide__content">
+                    <h1 class="top-slide__title">GRIS DIOR</h1>
+                    <p class="top-slide__subtitle">Fragrance</p>
+                    <p class="top-slide__text">
+                      With Gris Dior you dare to reveal your most surprising,
+                      mysterious and unexpected facets.
+                    </p>
+                    <a href="#" class="top-slide__btn">DISCOVER</a>
+                  </div>
+                  <img src="images/top-slider/slide-2.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
