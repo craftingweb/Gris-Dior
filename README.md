@@ -6,5 +6,4 @@ In the world of fashion, "gris" is the French word for "gray." Dior's interpreta
 
 Whether it's a "Gris Dior" handbag, a piece of clothing, or a makeup product, the color is often celebrated for its versatility and ability to complement a wide range of styles and aesthetics. It can be both understated and chic, making it a popular choice among fashion enthusiasts seeking a classic and refined look.
 
-<img width="1365" alt="gris-dior" src="https://github.com/VitaliPri/Gris-Dior/assets/101225909/e79a3745-1d14-476c-a92d-26718b7ad69b">
-# Gris-Dior
+<img width="1365" alt="gris-dior" src="https://github.com/VitaliPri/Gris-Dior/assets/101225909/4e2f943b-8e54-4158-a2d2-caea60f613b9">
