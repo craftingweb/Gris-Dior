@@ -159,3 +159,14 @@ body {
 .about__inner {
   padding-left: 200px;
 }
+
+.about__textbox {
+  margin-bottom: 150px;
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* .about__text p {
+  margin-bottom: 30px;
+} */
