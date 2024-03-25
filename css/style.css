@@ -144,6 +144,7 @@ body {
 
 .about {
   margin-bottom: 150px;
+  overflow: hidden;
 }
 
 .about__title {
@@ -167,6 +168,23 @@ body {
   align-items: flex-end;
 }
 
-/* .about__text p {
-  margin-bottom: 30px;
-} */
+.about__text {
+  flex-basis: 387px;
+  line-height: 1.2;
+}
+
+.about__text p {
+  margin-bottom: 15px;
+}
+
+.about__text--bold {
+  font-weight: bold;
+}
+
+.about__item-title {
+  margin-bottom: 20px;
+}
+
+.about__slider {
+  width: 1600px;
+}
