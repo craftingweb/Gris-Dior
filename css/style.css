@@ -187,4 +187,16 @@ body {
 
 .about__slider {
   width: 1600px;
+  padding-left: 200px;
+  margin-left: -200px;
+  padding-bottom: 20px;
+}
+
+.about__arrow {
+  margin-left: -198px;
+  margin-top: -6px;
+}
+
+.container-arrow .swiper-button-disabled {
+  opacity: 1;
 }
