@@ -107,17 +107,20 @@ body {
 }
 
 .top-slide__btn {
+  margin-left: auto;
+}
+
+.button {
   color: #7449bb;
   text-transform: uppercase;
   font-weight: 700;
   padding: 21px 55px;
   border: 1px solid #7449bb;
   display: inline-block;
-  margin-left: auto;
   transition: all 0.3s ease;
 }
 
-.top-slide__btn:hover {
+.button:hover {
   color: white;
   background-color: #7449bb;
 }
