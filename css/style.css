@@ -203,3 +203,26 @@ body {
 .container-arrow .swiper-button-disabled {
   opacity: 1;
 }
+
+.accordeon {
+}
+
+.accordeon__inner {
+  padding-left: 200px;
+}
+
+.accordeon__item {
+  border-bottom: 1px solid black;
+  padding: 50px 101px 20px 0;
+  position: relative;
+}
+
+.accordeon__item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 51px;
+  background-image: url("../images/Arrow-down.svg");
+  right: 85px;
+  top: 50px;
+}
