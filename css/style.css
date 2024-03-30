@@ -226,3 +226,27 @@ body {
   right: 85px;
   top: 50px;
 }
+
+.accordeon__trigger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordeon__trigger-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  flex-basis: 300px;
+}
+
+.accordeon__trigger-text {
+  flex-basis: 387px;
+  margin-right: 104px;
+}
+
+.accordeon__content {
+  padding-top: 20px;
+}
+
+.accordeon__content p {
+  margin-bottom: 10px;
+}
