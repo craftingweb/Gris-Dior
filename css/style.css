@@ -363,3 +363,53 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.footer {
+  background-color: #c4a9cd;
+  padding: 66px 0 100px;
+}
+
+.footer__top {
+  display: flex;
+  gap: 70px;
+  margin-bottom: 70px;
+  justify-content: space-between;
+}
+
+.footer__item {
+  margin-bottom: 70px;
+}
+
+.footer__item-title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer__item-form {
+  display: flex;
+  position: relative;
+}
+
+.footer__item-input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  display: block;
+  outline: none;
+}
+
+.footer__item-input::placeholder {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #000;
+  opacity: 0.4;
+}
+
+.footer__item-btn {
+  position: absolute;
+  right: -1px;
+}
