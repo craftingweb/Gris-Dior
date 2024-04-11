@@ -376,6 +376,10 @@ body {
   justify-content: space-between;
 }
 
+.footer__items {
+  flex-basis: 387px;
+}
+
 .footer__item {
   margin-bottom: 70px;
 }
@@ -412,4 +416,8 @@ body {
 .footer__item-btn {
   position: absolute;
   right: -1px;
+}
+
+.footer__item-link {
+  display: inline-block;
 }
