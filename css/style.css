@@ -378,10 +378,11 @@ body {
 
 .footer__items {
   flex-basis: 387px;
+  margin-top: -5px;
 }
 
-.footer__item {
-  margin-bottom: 70px;
+.footer__item + .footer__item {
+  margin-top: 70px;
 }
 
 .footer__item-title {
@@ -415,9 +416,38 @@ body {
 
 .footer__item-btn {
   position: absolute;
-  right: -1px;
+  right: 0px;
 }
 
-.footer__item-link {
-  display: inline-block;
+.footer__item-list li {
+  padding-top: 10px;
+}
+
+.footer__social-list {
+  margin-left: 10px;
+  margin-right: 105px;
+  align-self: flex-end;
+}
+
+.footer__social-item + .footer__social-item {
+  margin-top: 20px;
+}
+
+.footer__social-item svg:hover path {
+  fill: #7449bb;
+}
+.footer__social-item svg path {
+  transition: all 0.3s;
+}
+
+.footer__nav-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 105px;
+}
+
+.footer__img {
+  height: 390px;
+  width: 337px;
 }
