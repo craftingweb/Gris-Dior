@@ -451,3 +451,23 @@ body {
   height: 390px;
   width: 337px;
 }
+
+@media (max-width: 992px) {
+  .header__title {
+    display: none;
+  }
+
+  .menu {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .header__inner {
+    flex-wrap: wrap;
+  }
+  .menu {
+    width: 100%;
+  }
+}
