@@ -452,6 +452,22 @@ body {
   width: 337px;
 }
 
+@media (max-width: 1640px) {
+  .products__items {
+    position: static;
+  }
+  .products__title {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 1240px) {
+  .products__item-img {
+    width: 80%;
+  }
+}
+
 @media (max-width: 1040px) {
   .about__textbox {
     margin-bottom: 50px;
